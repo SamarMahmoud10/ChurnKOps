@@ -11,7 +11,7 @@ The project is structured to decouple the core Machine Learning experiment/logic
 ```text
 ChurnKops/
 │
-├── ml/                      # Machine Learning Core (Claude's Domain)
+├── ml/                      # Machine Learning Core 
 │   ├── src/                 # Training, preprocessing, and inference scripts
 │   ├── tests/               # Unit tests for ML code
 │   ├── models/              # Serialized model artifacts (.pkl / .onnx)
@@ -26,7 +26,7 @@ ChurnKops/
 ├── .env.example             # Template for environment variables
 ├── README.md                # Project documentation
 │
-├── .github/                 # CI/CD Automation Layer (Your DevOps Domain)
+├── .github/                 # CI/CD Automation Layer 
 │   └── workflows/
 │       ├── ci.yml           # Runs unit/integration tests and linting
 │       ├── security.yml     # Code and dependency vulnerability scanning
